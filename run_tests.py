@@ -7,6 +7,10 @@ Usage:
 This discovers tests under the `tests/` directory using unittest discovery
 and returns a non-zero exit code if any tests fail.
 """
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 import unittest
 
